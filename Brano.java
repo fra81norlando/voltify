@@ -12,5 +12,8 @@ public class Brano
   
   public Brano(String titolo){
     this.titolo = titolo;
+    this.durata = durata;
+    this.autore = autore;
+    this.datacreazione = datacreazione;
     }
 }
