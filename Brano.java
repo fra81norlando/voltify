@@ -10,10 +10,18 @@ public class Brano
   private String autore;
   private Date datacreazione;
   
-  public Brano(String titolo){
-    this.titolo = titolo;
-    this.durata = durata;
-    this.autore = autore;
-    this.datacreazione = datacreazione;
+   public Brano(String titolo){
+    public String getTitolo() {
+        return titolo;
     }
+    public String getGenere() {
+        return genere;
+    }
+    
+    public Brano(String titolo){
+     this.titolo = titolo;
+     this.durata = durata;
+     this.autore = autore;
+     this.datacreazione = datacreazione;
+     }
 }
