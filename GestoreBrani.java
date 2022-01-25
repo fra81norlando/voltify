@@ -37,7 +37,7 @@ public class GestoreBrani extends AppCompatActivity {
     public void visualizza(){
         listaBrani.setAdapter((ListAdapter) ListaBrani);
     public String listaSong(){
-        StringBuilder sbSong = new StringBuilder(); //definizione StringBuilder
+        StringBuilder sbSong = new StringBuilder(); 
         for (Brano brc : ListaBrani){
             sbSong.append("-"+ brc.getTitolo() +"\n" +"-"+ brc.getGenere() +"\n");
        
